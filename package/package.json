@@ -1,0 +1,16 @@
+{
+  "name": "@seanmcp/h",
+  "description": "Hydrogen",
+  "version": "0.0.0",
+  "scripts": {
+    "postpublish": "git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/seanmcp/hydrogen.git",
+    "directory": "package"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
