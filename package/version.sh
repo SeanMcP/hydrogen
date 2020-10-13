@@ -2,8 +2,8 @@
 
 next_version=$(npm version $@)
 
-# Add all changes in the repo
-git add -A
+# Add all changes in the subdirectory
+git add .
 
 # Commit changes
 git commit -m "chore: $1 $next_version"
