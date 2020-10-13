@@ -1,18 +1,11 @@
 {
   "name": "@seanmcp/h",
+  "private": "false",
   "description": "Hydrogen",
-  "version": "0.0.1-0",
+  "version": "0.0.0",
   "scripts": {
-    "postpublish": "git push --tags",
-    "version": "git add -A && git commit -m \"version\"",
-    "postversion": "git push && git push --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com/seanmcp/hydrogen.git",
-    "directory": "package"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "//postpublish": "git push --tags",
+    "//version": "git add -A && git commit -m \"version\"",
+    "//postversion": "git push && git push --tags"
   }
 }
