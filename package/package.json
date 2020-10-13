@@ -1,9 +1,11 @@
 {
   "name": "@seanmcp/h",
   "description": "Hydrogen",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "scripts": {
-    "postpublish": "git push --tags"
+    "postpublish": "git push --tags",
+    "version": "git add -A && git commit -m \"version\"",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
